@@ -244,8 +244,8 @@ function OpenMecanoActionsMenu()
       end
 
       if data.current.value == 'boss_actions' then
+		menu.close()
         TriggerEvent('esx_society:openBossMenu', 'mecano', function(data, menu)
-          menu.close()
         end)
       end
 
